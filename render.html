@@ -19,7 +19,7 @@ h1{font-family:Georgia,"Times New Roman",serif;font-size:86px;line-height:1.06;l
 .region-meter{display:flex;width:100%;height:15px;overflow:hidden}
 .region-segment{height:15px;min-width:3px;color:#fff;padding:0;border-right:2px solid #fffdf7}
 .region-labels{display:grid;grid-template-columns:repeat(7,1fr);align-items:center}
-.region-key{display:flex;justify-content:center;align-items:center;gap:5px;white-space:nowrap;font-size:16px;font-weight:800;letter-spacing:.025em;text-transform:uppercase;color:#34525b}
+.region-key{display:flex;justify-content:center;align-items:center;gap:5px;white-space:nowrap;font-size:20px;font-weight:800;letter-spacing:.025em;text-transform:uppercase;color:#34525b}
 .region-key i{width:9px;height:9px;flex:0 0 9px;background:var(--region-color);display:inline-block}
 .timeline{height:88px; background:#eaf2ed; display:grid; grid-template-columns:290px 1fr; align-items:center; padding:0 20px}
 .timeline-label{font-size:17px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:#17475a}
@@ -210,9 +210,9 @@ function el(name,attrs={},text=""){const n=document.createElementNS(NS,name);for
 map.appendChild(el("rect",{x:0,y:0,width:520,height:300,fill:"#edf5f0"}));
 for(let x=30;x<520;x+=52)map.appendChild(el("path",{d:`M${x} 0V300`,stroke:"#dce8df","stroke-width":".8"}));
 for(let y=30;y<300;y+=43)map.appendChild(el("path",{d:`M0 ${y}H520`,stroke:"#dce8df","stroke-width":".8"}));
-const land="#b4d2bd",edge="#648e7e";
+const land=["#efc5a4","#d9c8ee","#f3d891","#c7e2c5","#a8ddd5","#f1c6d8","#b8e3d8"],edge="#648e7e";
 const shapes=["M31 52L58 36 85 34 106 42 132 39 151 56 169 59 183 79 175 93 157 99 147 113 135 119 132 137 119 148 110 173 94 170 88 153 73 144 70 127 54 119 49 103 37 92Z","M153 151L174 154 190 168 187 187 178 207 172 228 164 250 155 238 151 218 144 198 146 179Z","M229 57L246 49 261 54 266 66 254 74 240 71Z","M251 81L272 70 298 73 317 67 336 75 350 72 367 84 384 86 400 99 418 105 426 119 407 127 390 118 376 128 365 139 347 137 334 148 316 142 303 151 291 138 278 135 272 121 259 116 250 101Z","M259 133L281 127 300 137 306 156 295 174 290 194 275 214 261 206 255 187 245 171 248 151Z","M390 195L410 187 430 193 439 204 425 214 405 211 393 205Z","M451 223l12-4 8 7-8 7-12-3Z"];
-for(const d of shapes)map.appendChild(el("path",{d,fill:land,stroke:edge,"stroke-width":"1.3","stroke-linejoin":"round"}));
+shapes.forEach((d,i)=>map.appendChild(el("path",{d,fill:land[i],stroke:edge,"stroke-width":"1.3","stroke-linejoin":"round"})));
 map.appendChild(el("path",{d:"M400 64c29 1 51 13 70 31",fill:"none",stroke:"#536ba2","stroke-width":"2","stroke-dasharray":"4 5"}));
 map.appendChild(el("text",{x:423,y:58,fill:"#455b83","font-size":"8","font-weight":"800"},"ORBIT · #4"));
 const X=lon=>14+(lon+180)/360*492,Y=lat=>10+(84-lat)/150*275,placed=[];
