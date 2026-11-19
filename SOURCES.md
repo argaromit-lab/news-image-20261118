@@ -60,3 +60,10 @@ Each row points to the report used for the numbered item in `render.html`. The d
 ## Date exclusions
 
 The front page does not report 17 November's Nvidia earnings, Alaska Senate result, Prague train crash or Mongolia resignation as 18 November events. The Qeshm strike is mentioned only as context for reported Gulf attacks on 18 November. The New Zealand GTA VI launch at midnight on 19 November local time falls at 11:00 UTC on 18 November; that UTC-day event is included. Later UTC events are not presented as completed Wednesday news.
+
+## Four KPI cards
+
+- **$3,792 gold session low:** a brief-specified market snapshot, not an independently sourced story item.
+- **25.9bn km / one light-day:** [NASA Voyager update, 18 Nov](https://science.nasa.gov/blogs/voyager/2026/11/18/voyager-1-engineers-analyze-data-issue-ready-to-confirm-light-day/); the milestone remains pending confirmation.
+- **€45bn proposed Ukraine loan:** [The Guardian, 18 Nov](https://www.theguardian.com/world/2026/nov/18/eu-loan-ukraine-cash-crisis-defences-von-der-leyen-kyiv).
+- **3.6% UK CPI:** [The Guardian, 18 Nov](https://www.theguardian.com/business/2026/nov/18/uk-inflation-rises-energy-prices-iran-war-oil).
