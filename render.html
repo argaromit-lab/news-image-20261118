@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=2048, initial-scale=1">
+<title>Wednesday 18 November 2026 | Global Desk</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;width:2048px;height:2048px;overflow:hidden;background:#fffdf7;color:#132b35}
+body{font-family:Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased;text-rendering:geometricPrecision}
+.page{width:2048px;height:2048px;padding:38px 42px 30px;display:grid;grid-template-rows:220px 88px 430px 410px 560px 100px 48px;gap:12px;background-color:#fffdf7;background-image:radial-gradient(#e6e0d1 .65px,transparent .65px);background-size:9px 9px}
+.masthead{height:220px;position:relative;border-top:8px solid #173a48;border-bottom:1px solid #a7b4ad;padding-top:8px;display:grid;grid-template-rows:28px 100px 36px 42px;row-gap:0}
+.edition{display:flex;align-items:center;justify-content:space-between;font-size:15px;line-height:1.4;font-weight:800;letter-spacing:.11em;text-transform:uppercase;color:#42616a}
+.edition .edition-mark{color:#f05e43;letter-spacing:0.01em}
+h1{font-family:Georgia,"Times New Roman",serif;font-size:86px;line-height:1.06;letter-spacing:-.035em;font-weight:700;margin:0;color:#102b37;white-space:nowrap}
+.dekline{display:flex;justify-content:space-between;align-items:center;color:#36535b;font-size:15px;line-height:1.4}
+.dekline strong{font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#31545b}
+.region-strip{display:grid;grid-template-rows:15px 24px;align-content:end;width:100%;height:42px;gap:2px}
+.region-meter{display:flex;width:100%;height:15px;overflow:hidden}
+.region-segment{height:15px;min-width:3px;color:#fff;padding:0;border-right:2px solid #fffdf7}
+.region-labels{display:grid;grid-template-columns:repeat(7,1fr);align-items:center}
+.region-key{display:flex;justify-content:center;align-items:center;gap:5px;white-space:nowrap;font-size:16px;font-weight:800;letter-spacing:.025em;text-transform:uppercase;color:#34525b}
+.region-key i{width:9px;height:9px;flex:0 0 9px;background:var(--region-color);display:inline-block}
+.timeline{height:88px; background:#eaf2ed; display:grid; grid-template-columns:290px 1fr; align-items:center; padding:0 20px}
+.timeline-label{font-size:17px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:#17475a}
+.timeline-track{height:100%;display:grid;grid-template-columns:repeat(8,1fr);align-items:center;position:relative}
+.timeline-track:before{content:"";position:absolute;left:8px;right:8px;top:44px;height:3px;background:#aac3b9}
+.timepoint{position:relative;display:flex;flex-direction:column;gap:7px;align-items:center;z-index:1;color:#26474f;font-size:13px;font-weight:700;white-space:nowrap}
+.timepoint b{width:13px; height:13px; border-radius:50%; background:#ef6546; box-shadow:0 0 0 1px #c94e38}
+.timepoint:nth-child(2n) b{background:#168ca0;box-shadow:0 0 0 1px #117381}
+.timepoint:first-child,.timepoint:last-child{font-style:italic;font-family:Georgia,"Times New Roman",serif;font-size:16px}
+.leads{height:430px;display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.lead{height:430px; display:grid; grid-template-rows:236px 194px; min-width:0; background:#fffefb; overflow:hidden}
+.lead-art{height:236px;position:relative;overflow:hidden}
+.lead-copy{padding:12px 17px 10px;display:grid;grid-template-rows:24px 62px 1fr;row-gap:4px;min-width:0}
+.lead-meta{display:flex;align-items:center;justify-content:space-between;font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#4b646b}
+.number{background:#173a48;color:white;border-radius:50%;width:26px;height:26px;display:inline-flex;align-items:center;justify-content:center;font-size:13px;letter-spacing:0}
+.status{font-size:12px; font-weight:900; letter-spacing:.09em; padding:4px 8px; color:#126c59; background:#f1faf5}
+.status.claim{color:#b24731;background:#fff3ef}
+.status.forecast{color:#2859a7;background:#eef4ff}
+.status.pending{color:#71600c;background:#fff9d9}
+.lead h2,.small-card h3{font-family:Georgia,"Times New Roman",serif;font-weight:700;color:#132c37;margin:0;line-height:1.02;overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2}
+.lead h2{font-size:29px;line-height:1.06;letter-spacing:-.02em}
+.lead p,.small-card p{margin:0;color:#34515a;overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2}
+.lead p{font-size:16px;line-height:1.28}
+.middle{height:410px;display:grid;grid-template-rows:26px 1fr;row-gap:8px}
+.section-head{display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #173a48;padding-bottom:4px;font-size:15px;font-weight:900;letter-spacing:.11em;text-transform:uppercase;color:#234a55}
+.section-head .section-note{font-size:12px;font-weight:700;letter-spacing:.07em;color:#6c7e7c}
+.small-grid{display:grid;grid-template-columns:repeat(6,1fr);grid-template-rows:repeat(2,1fr);gap:8px 12px;min-height:0}
+.small-card{height:184px; display:grid; grid-template-rows:72px 20px 42px 1fr; min-width:0; overflow:hidden; background:rgba(255,254,251,.85)}
+.small-art{height:72px;overflow:hidden;position:relative}
+.small-meta{display:flex;justify-content:space-between;align-items:center;padding:0 8px;font-size:11px;line-height:1;font-weight:900;letter-spacing:.06em;text-transform:uppercase;color:#587078}
+.small-meta .number{width:18px;height:18px;font-size:12px}
+.small-meta .status{padding:2px 5px;font-size:12px}
+.small-card h3{font-size:16px;line-height:1.3;padding:0 8px;-webkit-line-clamp:2}
+.small-card p{font-size:12px;line-height:1.35;padding:3px 8px 0;-webkit-line-clamp:2}
+.lower{height:560px;display:grid;grid-template-columns:548px 1fr;grid-template-rows:36px 1fr;gap:9px 18px;min-height:0}
+.lower-title{grid-column:1 / -1;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #173a48;padding:0 1px 5px;font-size:17px;line-height:1.4;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:#234a55}
+.lower-title small{font-size:12px;font-weight:700;letter-spacing:.08em;color:#687b78}
+.map-box{height:515px; background:#edf5f0; padding:7px 8px 5px; display:grid; grid-template-rows:1fr 38px; min-width:0}
+.map-box svg{width:100%;height:100%;display:block}
+.map-legend{display:flex;align-items:center;justify-content:space-around;border-top:1px solid #bdc9bf;font-size:11px;font-weight:800;color:#3d5960;text-transform:uppercase;letter-spacing:.04em}
+.legend-key{display:flex;align-items:center;gap:5px}
+.legend-dot{width:9px; height:9px; border-radius:50%; background:#e85e42}
+.legend-dot.claim{background:#fff}
+.legend-dot.forecast{background:#3465b7; outline:1px solid #254e8c}
+.quick-news{height:515px;display:grid;grid-template-columns:repeat(3,1fr);gap:0 12px;min-width:0}
+.quick-column{display:grid;grid-template-rows:repeat(12,1fr);min-height:0;border-left:1px solid #d3d9ce;padding-left:9px}
+.quick-item{display:grid;grid-template-columns:30px 1fr;gap:5px;align-items:center;min-width:0;border-bottom:1px solid #dbe0d8;overflow:hidden}
+.quick-number{width:23px;height:23px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px;font-weight:900;font-variant-numeric:tabular-nums}
+.quick-copy{min-width:0;display:grid;grid-template-rows:auto auto;row-gap:2px;overflow:hidden}
+.quick-copy strong{font-size:16px;line-height:1.4;color:#213e49;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.quick-copy span{font-size:12px;line-height:1.02;color:#65777a;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.date-check{height:100px; background:#fff4e9; display:grid; grid-template-columns:190px 1fr; align-items:center; padding:9px 16px; gap:9px}
+.date-check h2{margin:0;font-size:20px;line-height:1.4;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:#9e372c}
+.date-check p{margin:0;font-size:17px;line-height:1.4;color:#553d39}
+.footer{height:48px;border-top:2px solid #173a48;display:flex;justify-content:space-between;align-items:center;font-size:13px;font-weight:900;letter-spacing:.11em;text-transform:uppercase;color:#31525b}
+.footer span:last-child{font-size:11px;font-weight:700;letter-spacing:.04em;color:#697b78;text-transform:none}
+svg text{font-family:Arial,Helvetica,sans-serif}
+</style>
+<style id="gesso-text-wrap">h1,h2,h3{text-wrap:balance}p,li,figcaption,blockquote{text-wrap:pretty}</style>
+<style id="gesso-font-smoothing">html{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}</style>
+</head>
+<body>
+<main class="page" id="page">
+  <header class="masthead">
+    <div class="edition"><span class="edition-mark">GLOBAL DESK</span><span>WEDNESDAY · 18 NOVEMBER 2026</span><span>WORLD / UTC</span></div>
+    <h1>Wednesday 18 November 2026</h1>
+    <div class="dekline"><strong>THE WORLD'S NEWS IN ONE PICTURE · 52 STORIES · 6 CONTINENTS + DEEP SPACE · ALL FROM WEDNESDAY</strong><span>Reported events, proposals and claims kept distinct</span></div>
+    <div class="region-strip" id="region-strip"></div>
+  </header>
+  <section class="timeline" aria-label="The day in UTC">
+    <div class="timeline-label">THE DAY IN UTC</div>
+    <div class="timeline-track"><div class="timepoint"><b></b><span>Overnight</span></div><div class="timepoint"><b></b><span>07:00</span></div><div class="timepoint"><b></b><span>Morning</span></div><div class="timepoint"><b></b><span>10:16</span></div><div class="timepoint"><b></b><span>11:00</span></div><div class="timepoint"><b></b><span>19:00</span></div><div class="timepoint"><b></b><span>21:00</span></div><div class="timepoint"><b></b><span>Late</span></div></div>
+  </section>
+  <section class="leads" id="leads" aria-label="Four lead stories"></section>
+  <section class="middle">
+    <div class="section-head"><span>Across the day · stories 5–16</span><span class="section-note">Six continents · seven desks including deep space</span></div>
+    <div class="small-grid" id="small-grid"></div>
+  </section>
+  <section class="lower">
+    <div class="lower-title"><span>WHERE IT HAPPENED</span><small>ALSO ON WEDNESDAY 18 NOVEMBER · 36 REPORTS</small></div>
+    <div class="map-box"><svg id="world-map" viewBox="0 0 520 300" role="img" aria-label="Map of six continents with 52 numbered story markers and a deep-space orbit"></svg><div class="map-legend"><span class="legend-key"><i class="legend-dot"></i>Confirmed</span><span class="legend-key"><i class="legend-dot claim"></i>Claim / reported</span><span class="legend-key"><i class="legend-dot forecast"></i>Forecast / pending</span><span class="legend-key">Orbit #4</span></div></div>
+    <div class="quick-news" id="quick-news"></div>
+  </section>
+    <aside class="date-check"><h2>DATE CHECK</h2><p>Edition checked against reports dated Wednesday 18 November 2026. Excluded: 17 Nov Nvidia earnings, Alaska Senate result, Prague train crash and Mongolia resignation. The New Zealand GTA VI launch at 00:00 Thu local is 11:00 UTC Wed 18 Nov. Later UTC events are not presented as completed Wednesday news. Voyager awaits NASA confirmation; Gulf claims are attributed.</p></aside>
+  <footer class="footer"><span>GLOBAL DESK · WEDNESDAY 18 NOVEMBER 2026 EDITION</span><span>Reporting dated 18 Nov · linked source for every story</span></footer>
+</main>
+<script>
+const COLORS={Africa:"#e85e42",Asia:"#1786a0",Europe:"#365eb7",NorthAmerica:"#de8b2d",SouthAmerica:"#7952a8",Oceania:"#158b6a",Space:"#263b69"};
+const REGIONS={Africa:"AFRICA",Asia:"ASIA",Europe:"EUROPE",NorthAmerica:"N. AMERICA",SouthAmerica:"S. AMERICA",Oceania:"OCEANIA",Space:"DEEP SPACE"};
+const S=[
+{t:"Kuwait says Iranian drones repelled",d:"Bahrain also reported an attack, following the US strike on Qeshm on 17 November.",r:"Asia",status:"CLAIM",src:"BBC · 18 NOV",url:"https://www.bbc.com/news/articles/cw4gn9jeqjq7o",lat:29.4,lon:47.9,scene:"gulf"},
+{t:"Xi greets Trump as APEC opens",d:"China's president welcomes the US leader in Shenzhen ahead of talks with Xi and Putin.",r:"Asia",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/world/2026/nov/18/xi-jinping--protectionism-donald-trump-apec-summit-putin",lat:22.5,lon:114.1,scene:"summit"},
+{t:"EU proposes €45bn Ukraine loan",d:"The proposal targets Kyiv's funding gap as Russian attacks hit Odesa, killing four.",r:"Europe",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/world/2026/nov/18/eu-loan-ukraine-cash-crisis-defences-von-der-leyen-kyiv",lat:50.4,lon:30.5,scene:"ukraine"},
+{t:"Voyager approaches one light-day away",d:"NASA engineers are checking the signal before confirming the 25.9-billion-kilometre milestone.",r:"Space",status:"FORECAST",src:"NASA · 18 NOV",url:"https://science.nasa.gov/blogs/voyager/2026/11/18/voyager-1-engineers-analyze-data-issue-ready-to-confirm-light-day/",lat:0,lon:0,scene:"space"},
+{t:"Israeli forces cross Gaza's Yellow Line",d:"Israel says the rare ground operation targets a tunnel; Hamas calls it a ceasefire breach.",r:"Asia",status:"CLAIM",src:"BBC · 18 NOV",url:"https://www.bbc.com/news/articles/cw8r7510degno",lat:31.5,lon:34.5,scene:"gaza"},
+{t:"Myanmar Rohingya case awaits a UN court ruling",d:"The top court considers genocide allegations; no verdict is announced today.",r:"Asia",status:"FORECAST",src:"REUTERS · 18 NOV",url:"https://www.reuters.com/world/asia-pacific/top-un-court-rule-alleged-genocide-myanmars-rohingya-2026-11-18/",lat:19.7,lon:96.1,scene:"court"},
+{t:"Democrats nominate Jeffries for House speaker",d:"The leadership vote sets up a change at the start of the next US Congress.",r:"NorthAmerica",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/us-news/2026/nov/18/hakeem-jeffries-house-speaker-nomination",lat:38.9,lon:-77,scene:"ballot"},
+{t:"COP31 talks split over fossil fuels and finance",d:"Delegates debate an adaptation fund and proposals outside the UN process.",r:"Europe",status:"CLAIM",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/environment/2026/nov/18/world-held-hostage-by-oil-mafia-says-panama-minister-at-cop-31",lat:36.9,lon:30.7,scene:"climate"},
+{t:"Anthropic sets IPO price at $83 a share",d:"The stock debut is scheduled for Thursday; no public-market result yet.",r:"NorthAmerica",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/technology/2026/nov/18/anthropic-share-price-stock-market-ipo",lat:37.8,lon:-122.4,scene:"ipo"},
+{t:"UK inflation rises to 3.6%",d:"Higher petrol and diesel prices lift annual inflation to its highest in a year.",r:"Europe",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/business/2026/nov/18/uk-inflation-rises-energy-prices-iran-war-oil",lat:51.5,lon:-0.1,scene:"inflation"},
+{t:"Chhath devotees gather beside Delhi's polluted river",d:"The festival's prayers and offerings unfold on the Yamuna amid pollution concerns.",r:"Asia",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/world/gallery/2026/nov/18/chhath-festival-india-nepal-photos",lat:28.6,lon:77.2,scene:"river"},
+{t:"Florida pastor convicted over Haiti president's killing",d:"A US jury convicts Christian Sanon over the 2021 assassination plot.",r:"NorthAmerica",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/us-news/2026/nov/18/florida-pastor-guilty-haiti-president-assassination",lat:25.8,lon:-80.2,scene:"justice"},
+{t:"England seals cricket series with 97-run win",d:"Ben Duckett's 133 helps England defeat Australia in the third ODI.",r:"Oceania",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/sport/2026/nov/18/ben-duckett-steers-england-odi-cricket-series-win-sandpapergate-australia",lat:-42.9,lon:147.3,scene:"cricket"},
+{t:"South Korea's exams shaken by AI cheating row",d:"The high-stakes university entrance tests face questions over exam security.",r:"Asia",status:"CLAIM",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/world/2026/nov/18/south-korea-university-entrace-exams-ai-cheating-measures",lat:37.5,lon:127,scene:"exam"},
+{t:"At least 12 killed in Honduras attacks",d:"Police link four rural attacks to organised crime groups.",r:"NorthAmerica",status:"CLAIM",src:"REUTERS · 18 NOV",url:"https://www.reuters.com/world/americas/least-12-dead-organized-crime-attacks-honduras-police-spokesman-says-2026-11-18/",lat:14.1,lon:-87.2,scene:"honduras"},
+{t:"Carney looks to China as auto trade strains",d:"Canada's prime minister says Ottawa is exploring options beyond US deals.",r:"NorthAmerica",status:"CONFIRMED",src:"BBC · 18 NOV",url:"https://www.bbc.com/news/articles/cq98xlz09ye0o",lat:45.4,lon:-75.7,scene:"trade"},
+{t:"EU–UK reset draft weighs food and mobility",d:"A 72-paragraph draft outlines trade and travel proposals before Friday's expected sign-off.",r:"Europe",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/politics/2026/nov/18/uk-eu-relationship-reset-draft-explainer",lat:51.5,lon:-0.1},
+{t:"West Bank building contracts delayed after UK sanctions",d:"Israel postpones settlement plans after new British measures.",r:"Asia",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/world/2026/nov/18/israel-construction-contracts-e1-west-bank-settlement-uk-sanctions",lat:31.8,lon:35.2},
+{t:"Spanish court opens probe into Julio Iglesias allegations",d:"Prosecutors investigate claims made by two former employees.",r:"Europe",status:"CLAIM",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/world/2026/nov/18/spanish-court-investigates-julio-iglesias-two-women-allegations",lat:40.4,lon:-3.7},
+{t:"Drone attacks nearly halve Russia's oil refining",d:"Sources say strikes cut November processing at Russian refineries.",r:"Europe",status:"CLAIM",src:"REUTERS · 18 NOV",url:"https://www.reuters.com/business/energy/drone-attacks-nearly-halve-russias-november-oil-refining-sources-say-2026-11-18/",lat:55.7,lon:37.6},
+{t:"Russian strikes leave Kyiv facing major outages",d:"The capital's mayor is under pressure as power cuts disrupt daily life.",r:"Europe",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/world/2026/nov/18/russian-attacks-kyiv-power-outages-mayor-in-perilous-position",lat:50.4,lon:30.5},
+{t:"US and Venezuela announce military-cooperation pact",d:"Pete Hegseth visits Caracas and announces a new bilateral agreement.",r:"SouthAmerica",status:"CONFIRMED",src:"REUTERS · 18 NOV",url:"https://www.reuters.com/world/americas/us-defense-secretary-hegseth-vows-boost-venezuela-military-cooperation-2026-11-18/",lat:10.5,lon:-66.9},
+{t:"Peruvian artist revives Quechua through rap",d:"Renata Flores' music brings a new audience to an Indigenous language.",r:"SouthAmerica",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/world/2026/nov/18/quechua-rapper-renata-flores-indigenous-language-incas",lat:-13.2,lon:-74.2},
+{t:"Ghana's new $60m presidential jet draws anger",d:"The purchase prompts debate as households face a rising cost of living.",r:"Africa",status:"CLAIM",src:"BBC · 18 NOV",url:"https://www.bbc.com/news/articles/ck792dez8dp3o",lat:5.6,lon:-0.2},
+{t:"Nigeria signs central-bank energy funding deal",d:"The central bank and national oil company aim to support foreign exchange flows.",r:"Africa",status:"CONFIRMED",src:"REUTERS · 18 NOV",url:"https://www.reuters.com/world/africa/nigerias-central-bank-nnpc-sign-deal-support-forex-inflows-energy-funding-2026-11-18/",lat:9.1,lon:7.5},
+{t:"UK gas storage and North Sea projects face cuts",d:"EnQuest says it is quitting the basin; SSE warns a Yorkshire site may close.",r:"Europe",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/business/2026/nov/18/sse-threatens-to-close-yorkshire-gas-storage-site-unless-ministers-intervene",lat:54.2,lon:-1.2},
+{t:"Australian wages rise at fastest pace since 2023",d:"Pay grows, but consumer prices are climbing even more quickly.",r:"Oceania",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/australia-news/2026/nov/18/wages-grow-at-fastest-pace-since-2023-but-prices-are-climbing-even-more-quickly",lat:-35.3,lon:149.1},
+{t:"Report questions Australia's 'phantom forests' credits",d:"A review alleges arid-land plantings were counted in carbon-offset schemes.",r:"Oceania",status:"CLAIM",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/environment/2026/nov/18/phantom-forests-in-australian-arid-outback-used-to-create-carbon-credits-meant-to-offset-emissions-report-claims",lat:-25,lon:133},
+{t:"Russian national charged in Silicon Valley spying case",d:"Prosecutors allege he gathered intelligence on Palantir and its employees.",r:"NorthAmerica",status:"CLAIM",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/technology/2026/nov/18/russian-national-spying-silicon-valley",lat:37.4,lon:-122},
+{t:"Waymo pulls driverless taxis from US freeways",d:"The company suspends highway rides after California's ban.",r:"NorthAmerica",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/technology/2026/nov/18/waymo-pulls-driverless-taxis-us-freeways",lat:37.4,lon:-122},
+{t:"Java security flaw found in major programming language",d:"Researchers say AI-assisted analysis uncovered a critical software bug.",r:"Europe",status:"CONFIRMED",src:"BBC · 18 NOV",url:"https://www.bbc.com/news/articles/cke89jevqm1vo",lat:52.5,lon:13.4},
+{t:"Fed minutes keep rate pressure in focus",d:"Investors weigh policy minutes as US markets finish mixed on Wednesday.",r:"NorthAmerica",status:"CONFIRMED",src:"REUTERS · 18 NOV",url:"https://www.reuters.com/legal/transactional/fed-policymakers-concerned-about-financial-system-risks-minutes-show-2026-11-18/",lat:38.9,lon:-77},
+{t:"Ethiopia and Eritrea build forces along the border",d:"Monitors and local sources say the troop build-up raises fears of a renewed war.",r:"Africa",status:"CLAIM",src:"REUTERS · 18 NOV",url:"https://www.reuters.com/world/africa/ethiopia-eritrea-amass-forces-along-border-heightening-war-fears-sources-say-2026-11-18/",lat:9,lon:38.7},
+{t:"India's rice boom puts pressure on farms and water",d:"A Reuters investigation traces how the country's rice exports reshape agriculture.",r:"Asia",status:"CONFIRMED",src:"REUTERS · 18 NOV",url:"https://www.reuters.com/world/asia-pacific/how-india-became-rice-powerhouse-why-its-becoming-problem-2026-11-18/",lat:28.6,lon:77.2},
+{t:"Albanese joins APEC leaders' photo with Putin",d:"Australia's prime minister accepts the hosts' invitation despite domestic criticism.",r:"Oceania",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/australia-news/2026/nov/18/anthony-albanese-defies-critics-for-apec-summit-photo-with-vladimir-putin",lat:-35.3,lon:149.1},
+{t:"Morocco plans to make more defence equipment at home",d:"The royal palace says domestic production should meet 40% of national needs by 2035.",r:"Africa",status:"CONFIRMED",src:"REUTERS · 18 NOV",url:"https://www.reuters.com/world/africa/morocco-produce-40-its-defence-needs-by-2035-royal-palace-says-2026-11-18/",lat:34,lon:-6.8},
+{t:"Japan and US revisit a long-running potato trade dispute",d:"The 76-year import ban is again a focus of trans-Pacific trade talks.",r:"Asia",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/world/2026/nov/18/potato-war-japan-76-year-ban-american-imported-potatoes",lat:35.7,lon:139.7},
+{t:"Tame Impala sweeps the ARIA Awards",d:"Seven wins include album and song of the year at Australia's music awards.",r:"Oceania",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/music/2026/nov/18/aria-awards-winners-2026-tame-impala-dominates",lat:-33.9,lon:151.2},
+{t:"UK businesses seek better post-Brexit work travel rules",d:"Business leaders say cross-border arrangements need urgent improvement.",r:"Europe",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/world/2026/nov/18/brexit-work-travel-rules-urgent-improvement-cbi",lat:51.5,lon:-0.1},
+{t:"UK wild-bird populations reach a low, watchdog says",d:"The environment watchdog says 45% of native breeding species are declining.",r:"Europe",status:"CLAIM",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/environment/2026/nov/18/uk-government-angela-eagle-natural-england-wild-birds-decline-",lat:51.5,lon:-0.1},
+{t:"Mexico's El Bosque residents flee advancing sea",d:"Erosion and rising waters have washed away trees and homes.",r:"NorthAmerica",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/environment/ng-interactive/2026/nov/18/el-bosque-mexico-displaced-sea-level-this-is-climate-breakdown",lat:18.6,lon:-92.3},
+{t:"Bangladesh deploys paramilitary as unrest grows",d:"Security forces move as protests flare over former prime minister Sheikh Hasina's return.",r:"Asia",status:"CONFIRMED",src:"REUTERS · 18 NOV",url:"https://www.reuters.com/world/asia-pacific/bangladesh-deploys-paramilitary-unrest-grows-over-hasinas-return-2026-11-18/",lat:23.8,lon:90.4},
+{t:"Germany criticises US pressure on Kyiv's deep strikes",d:"Berlin's foreign minister calls the criticism of Ukraine 'quite stupid'.",r:"Europe",status:"CLAIM",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/world/2026/nov/18/ukraine-war-briefing-us-criticises-kyiv-deep-strikes-russia",lat:52.5,lon:13.4},
+{t:"South Africa's inflation picks up in October",d:"Prices accelerate as economists still expect the central bank to hold rates.",r:"Africa",status:"CONFIRMED",src:"REUTERS · 18 NOV",url:"https://www.reuters.com/world/africa/south-africa-inflation-accelerates-52-yy-october-expected-2026-11-18/",lat:-25.7,lon:28.2},
+{t:"MLB owners hold firm on salary-cap demand",d:"The league commissioner says a lockout could threaten the 2027 season.",r:"NorthAmerica",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/sport/2026/nov/18/mlb-commissioner-manfred-cites-fan-support-for-salary-cap-as-baseball-heads-towards-lockout",lat:40.7,lon:-74},
+{t:"Rugby brain-injury lawsuits near another collapse",d:"Hundreds of players' cases face a medical-document deadline dispute.",r:"Europe",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/sport/2026/nov/18/rugby-brain-injury-lawsuits-on-brink-of-collapse-over-medical-documents-delay",lat:51.5,lon:-0.1},
+{t:"AFL suspends Tom Papley after second positive test",d:"The Swans player is suspended after tests detected cocaine and MDMA.",r:"Oceania",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/sport/2026/nov/18/afl-suspends-swans-star-tom-papley-second-drug-test-cocaine-mdma-ntwnfb",lat:-33.9,lon:151.2},
+{t:"GTA VI's midnight launch starts in New Zealand",d:"The first local launch is 00:00 Thursday, 11:00 UTC on Wednesday 18 November.",r:"Oceania",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/australia-news/2026/nov/18/gta-6-biggest-gaming-event-australians-prepare-for-global-release",lat:-41.3,lon:174.8},
+{t:"Senegal and Morocco lead African Cup qualifiers",d:"Several teams secure places for the 2027 Africa Cup of Nations.",r:"Africa",status:"CONFIRMED",src:"BBC · 18 NOV",url:"https://www.bbc.com/sport/football/articles/c5evrgrvw1ezo",lat:14.7,lon:-17.5},
+{t:"Italy approves antisemitism bill amid protests",d:"Parliament backs a new definition as opponents warn of limits on political expression.",r:"Europe",status:"CONFIRMED",src:"REUTERS · 18 NOV",url:"https://www.reuters.com/world/italy-approves-antisemitism-law-amid-leftist-opposition-protests-2026-11-18/",lat:41.9,lon:12.5},
+{t:"Sundarbans tiger ranger works to protect people and wildlife",d:"Abdul Goni Gazi describes the risks of helping Bengal tigers coexist with communities.",r:"Asia",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/environment/2026/nov/18/abdul-goni-gazi-tigers-bangladesh-sundarbans-aoe",lat:22,lon:89.6},
+{t:"Alcaraz beats Medvedev at ATP Finals",d:"The Spaniard wins their group-stage match in Turin.",r:"Europe",status:"CONFIRMED",src:"GUARDIAN · 18 NOV",url:"https://www.theguardian.com/sport/live/2026/nov/18/carlos-alcaraz-v-daniil-medvedev-atp-finals-tennis-group-stage-live",lat:45.1,lon:7.7},
+];
+if(S.length!==52)throw new Error("The source list must contain 52 items.");
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function statusClass(x){return x==="CLAIM"?"claim":x==="FORECAST"?"forecast":""}
+function iconMarkup(scene,c){
+const common={
+gaza:'<path d="M35 118V62h38v56m13 0V45h42v73m12 0V70h48v48m-108-35h8m-8 16h8m18-24h9m-9 17h9m-9 17h9m24-24h9m-9 17h9" fill="#f6b96a" stroke="#713e38" stroke-width="4"/><path d="M10 145h215" stroke="#183b50" stroke-width="8"/><path d="M123 128l25-31 43 3 22 29v18h-93z" fill="#386783" stroke="#172f3e" stroke-width="4"/><circle cx="143" cy="148" r="10" fill="#f3ecda"/><circle cx="196" cy="148" r="10" fill="#f3ecda"/>',
+court:'<path d="M35 62l88-42 87 42z" fill="#fff2cf" stroke="#5e5965" stroke-width="4"/><path d="M46 66h155M48 132h151M41 145h166" stroke="#5e5965" stroke-width="5"/><path d="M60 70v58m37-58v58m39-58v58m38-58v58" stroke="#d17857" stroke-width="14"/><path d="M110 40l13 17 13-17" fill="none" stroke="#138d9d" stroke-width="5"/>',
+ballot:'<path d="M42 66h150v90H42z" fill="#f3e0b4" stroke="#6b5546" stroke-width="4"/><path d="M29 68l88-50 88 50" fill="#f2a745" stroke="#6b5546" stroke-width="4"/><path d="M62 77v72m38-72v72m39-72v72m38-72v72" stroke="#f8f3e4" stroke-width="10"/><path d="M94 42l22 18 27-31" fill="none" stroke="#167c69" stroke-width="9"/>',
+climate:'<circle cx="135" cy="82" r="47" fill="#ef8749"/><path d="M16 151q38-31 77 0t77 0t78 0" fill="none" stroke="#117fa0" stroke-width="12"/><path d="M31 132q38-31 77 0t77 0t63 0" fill="none" stroke="#53b2b1" stroke-width="8"/><path d="M51 70l17-19 17 19m76-15 14-20 13 20" fill="none" stroke="#385e58" stroke-width="6"/>',
+ipo:'<path d="M33 147h190" stroke="#173b4c" stroke-width="6"/><path d="M51 140V96h42v44m17 0V60h42v80m17 0V79h42v61" fill="#f2ad43" stroke="#d8794c" stroke-width="3"/><path d="M64 83l50-30 40 15 46-39" fill="none" stroke="#117f92" stroke-width="8"/><circle cx="200" cy="29" r="8" fill="#ef6447"/>',
+inflation:'<path d="M18 144h220" stroke="#244b57" stroke-width="5"/><path d="M56 130l20-45 21 45z" fill="#e96143"/><path d="M121 130l20-45 21 45z" fill="#f2b347"/><path d="M184 130l20-45 21 45z" fill="#188da0"/><path d="M76 78V44m65 34V31m64 34V20" stroke="#264b57" stroke-width="7"/><path d="M28 55q25-25 49 0" fill="none" stroke="#82a987" stroke-width="5"/>',
+river:'<circle cx="177" cy="45" r="24" fill="#f5b83e"/><path d="M0 95q40-18 80 0t80 0t80 0v67H0z" fill="#188ba1"/><path d="M0 118q40-18 80 0t80 0t80 0" fill="none" stroke="#a6e1d8" stroke-width="5"/><path d="M42 90v-37m-10 12l10-14 11 14m36 25V43m-10 12l10-14 11 14" stroke="#49644e" stroke-width="5"/>',
+justice:'<path d="M115 26v120m-48 3h96m-48-123l-55 30h110z" fill="none" stroke="#715044" stroke-width="7"/><path d="M58 61l-20 47h41zm112 0l-20 47h41z" fill="#e5ab52" stroke="#715044" stroke-width="4"/><path d="M30 110h57m55 0h57" stroke="#16788b" stroke-width="5"/>',
+cricket:'<path d="M25 145h205" stroke="#257a60" stroke-width="9"/><path d="M75 42l17-6 41 91-18 8z" fill="#e7bd70" stroke="#6c513e" stroke-width="4"/><path d="M177 51v91m14-91v91m-27-78h40m-40 65h40" stroke="#f06b47" stroke-width="6"/><circle cx="175" cy="46" r="12" fill="#c63238"/>',
+exam:'<path d="M39 42h166v111H39z" fill="#163e53" stroke="#f7f2dd" stroke-width="5"/><path d="M52 55h140v79H52z" fill="#9bd5cd"/><path d="M67 74h82m-82 19h96m-96 19h65" stroke="#f8faf1" stroke-width="7"/><path d="M110 165h30m-15-13v13" stroke="#a55f44" stroke-width="7"/><path d="M70 27l31 10-31 10z" fill="#ef7049"/>',
+honduras:'<path d="M28 58h195v92H28z" fill="#fff9e7" stroke="#285b67" stroke-width="4"/><path d="M28 87h195v34H28z" fill="#39a8b7"/><circle cx="123" cy="104" r="8" fill="#fff"/><path d="M47 144l21-36 20 36m27 0 22-36 21 36m23 0 19-36 20 36" fill="#db8252" stroke="#8b4d42" stroke-width="4"/>',
+trade:'<path d="M35 139h190M45 123V72l42-18 44 18v51m14 0V38h47v85" fill="#e2bc7a" stroke="#42646a" stroke-width="4"/><path d="M61 92h14m-14 15h14m34-15h14m-14 15h14m37-41h28m-28 17h28" stroke="#fff9e8" stroke-width="6"/><path d="M65 43q30-30 62 0" fill="none" stroke="#e85e42" stroke-width="6"/>',
+default:'<circle cx="127" cy="83" r="52" fill="#f4b14a"/><path d="M20 143h215" stroke="#1d5664" stroke-width="6"/><path d="M55 133V94h45v39m18 0V65h43v68m14 0V85h43v48" fill="#2c9a9d" stroke="#fff4df" stroke-width="4"/><path d="M27 60l22-25 22 25m105-8l19-21 20 21" fill="none" stroke="#db6346" stroke-width="6"/>'
+};
+return common[scene]||common.default;
+}
+function art(s,i,lead=false){
+const W=lead?480:310,H=lead?236:72;
+if(lead&&i===0)return `<svg width="${W}" height="${H}" viewBox="0 0 480 236" aria-hidden="true"><defs><linearGradient id="gulf${i}" x2=".9" y2="1"><stop stop-color="#1685a0"/><stop offset="1" stop-color="#0c405a"/></linearGradient><linearGradient id="sand${i}" x2="0" y2="1"><stop stop-color="#ffd479"/><stop offset="1" stop-color="#e9884e"/></linearGradient></defs><rect width="480" height="236" fill="url(#gulf${i})"/><circle cx="371" cy="60" r="37" fill="#ffd674" opacity=".92"/><path d="M0 158q63-13 110 0t91 0q42-12 90 0t97 0q41-10 92 2v76H0z" fill="#f1b663"/><path d="M60 90l67 10 43 49H27z" fill="url(#sand${i})"/><path d="M208 116q47-43 82-2t72-4" fill="none" stroke="#fff0c2" stroke-width="4" stroke-dasharray="7 8"/><path d="M251 91l19 12-19 4 9-8zM326 93l19 12-19 4 9-8zM377 121l19 12-19 4 9-8z" fill="#f5f4df" stroke="#173c50" stroke-width="2"/><circle cx="143" cy="105" r="7" fill="#fff1c6"/><text x="28" y="30" fill="#fff" font-size="15" font-weight="800" letter-spacing="2">PERSIAN GULF</text><text x="28" y="211" fill="#143d50" font-size="14" font-weight="800">BAHRAIN  •  KUWAIT</text></svg>`;
+if(lead&&i===1)return `<svg width="${W}" height="${H}" viewBox="0 0 480 236" aria-hidden="true"><defs><linearGradient id="sky${i}" y2="1"><stop stop-color="#72bdd0"/><stop offset="1" stop-color="#e2f0dc"/></linearGradient></defs><rect width="480" height="236" fill="url(#sky${i})"/><circle cx="394" cy="52" r="34" fill="#ffd76e"/><path d="M0 145h480v91H0z" fill="#e5bb7a"/><path d="M0 169h480M0 194h480" stroke="#fff0cd" stroke-width="4"/><path d="M0 220l480-52" stroke="#be8955" stroke-width="3"/><path d="M90 118q66 14 119 0l42-15-46 3-34-37-13 1 22 36-59-5-16-13-9 1 8 21-14 3z" fill="#f7f4e8" stroke="#385764" stroke-width="3"/><path d="M69 51h112v49H69z" fill="#d93038"/><path d="M89 62l4 9 10 1-8 7 2 10-8-5-9 5 2-10-8-7 10-1z" fill="#ffd34e"/><circle cx="109" cy="62" r="2.2" fill="#ffd34e"/><circle cx="119" cy="70" r="2.2" fill="#ffd34e"/><circle cx="118" cy="83" r="2.2" fill="#ffd34e"/><circle cx="108" cy="91" r="2.2" fill="#ffd34e"/><path d="M197 51h144v49H197z" fill="#fff"/><path d="M197 51h144v7H197m0 12h144m-144 12h144m-144 12h144" stroke="#d9413c" stroke-width="5"/><path d="M197 51h62v27h-62z" fill="#28519b"/><circle cx="207" cy="59" r="2" fill="#fff"/><circle cx="221" cy="59" r="2" fill="#fff"/><circle cx="235" cy="59" r="2" fill="#fff"/><circle cx="249" cy="59" r="2" fill="#fff"/><circle cx="214" cy="69" r="2" fill="#fff"/><circle cx="228" cy="69" r="2" fill="#fff"/><circle cx="242" cy="69" r="2" fill="#fff"/><text x="26" y="31" fill="#204957" font-size="15" font-weight="800" letter-spacing="2">SHENZHEN  /  APEC</text></svg>`;
+if(lead&&i===2)return `<svg width="${W}" height="${H}" viewBox="0 0 480 236" aria-hidden="true"><defs><linearGradient id="eu${i}" x2="1" y2="1"><stop stop-color="#f5c55b"/><stop offset="1" stop-color="#ef7c4d"/></linearGradient></defs><rect width="480" height="236" fill="#dcebe1"/><path d="M0 151L88 95l80 43 67-58 80 58 67-37 98 38v67H0z" fill="#6a9e82"/><path d="M0 183l95-48 65 39 85-57 80 58 80-43 75 35v69H0z" fill="#3d796d"/><path d="M25 35h125v42H25z" fill="#194b9a"/><g fill="#ffd348"><circle cx="57" cy="55" r="3"/><circle cx="69" cy="48" r="3"/><circle cx="83" cy="46" r="3"/><circle cx="98" cy="49" r="3"/><circle cx="111" cy="57" r="3"/><circle cx="98" cy="65" r="3"/><circle cx="82" cy="66" r="3"/><circle cx="68" cy="63" r="3"/></g><path d="M169 35h115v42h-115z" fill="#1684ad"/><path d="M169 56h115v21h-115z" fill="#f3cf68"/><text x="300" y="112" fill="#173e51" font-family="Georgia" font-size="37" font-weight="700">€45bn</text><text x="302" y="133" fill="#244b59" font-size="12" font-weight="800" letter-spacing="1">PROPOSED · UKRAINE</text><path d="M324 164l34-32 34 32-34 33z" fill="#dfd7c0" stroke="#52666b" stroke-width="2"/><path d="M324 164h68v33h-68z" fill="#ee7460" opacity=".83"/><circle cx="358" cy="163" r="4" fill="#f8eacf"/><text x="23" y="220" fill="#fff" font-size="14" font-weight="800">KYIV  •  FUNDING &amp; POWER</text></svg>`;
+if(lead&&i===3)return `<svg width="${W}" height="${H}" viewBox="0 0 480 236" aria-hidden="true"><defs><radialGradient id="night${i}"><stop stop-color="#294c79"/><stop offset="1" stop-color="#101c39"/></radialGradient><linearGradient id="earth${i}" x2="1" y2="1"><stop stop-color="#70d0cb"/><stop offset="1" stop-color="#2563ad"/></linearGradient></defs><rect width="480" height="236" fill="url(#night${i})"/><g fill="#fff5d3"><circle cx="42" cy="48" r="2"/><circle cx="86" cy="31" r="2"/><circle cx="175" cy="37" r="2"/><circle cx="244" cy="59" r="2"/><circle cx="448" cy="35" r="2"/><circle cx="316" cy="27" r="2"/><circle cx="273" cy="93" r="2"/><circle cx="423" cy="115" r="2"/></g><circle cx="92" cy="137" r="66" fill="url(#earth${i})"/><path d="M49 105l26-17 15 8 8 22-19 13-4 23-20-5-14-19zm73 28l23-11 17 10-7 23-24 13-16-12z" fill="#7ec398"/><path d="M154 123q68-69 146-33t97 9" fill="none" stroke="#f8df87" stroke-width="3" stroke-dasharray="5 7"/><path d="M300 85l31-7-22 22 6-12z" fill="#f4bb52"/><path d="M346 89l24-16-3 11 15 5-19 4-5 12z" fill="#eee4bd" stroke="#f6c456" stroke-width="2"/><path d="M379 89h52m-37-7l-15 7 15 7" fill="none" stroke="#d9e8ff" stroke-width="2"/><text x="274" y="157" fill="#f7d477" font-size="25" font-weight="900">25.9B KM</text><text x="274" y="182" fill="#d5e4ed" font-size="13" font-weight="800" letter-spacing="1">ONE LIGHT-DAY · PENDING</text><text x="25" y="28" fill="#cfdeeb" font-size="13" font-weight="800" letter-spacing="2">NASA  /  DEEP SPACE</text></svg>`;
+const c=COLORS[s.r],bg=["#d6ece6","#f3e2bf","#d9e7f0","#e7e4f2","#f2d8c9","#dfead0"][i%6];
+const inner=iconMarkup(s.scene,c);
+if(lead)return `<svg width="${W}" height="${H}" viewBox="0 0 480 236" aria-hidden="true"><defs><linearGradient id="lead${i}" x2=".85" y2="1"><stop stop-color="${bg}"/><stop offset="1" stop-color="${c}" stop-opacity=".56"/></linearGradient></defs><rect width="480" height="236" fill="url(#lead${i})"/><g transform="translate(108 31) scale(1.1)">${inner}</g><circle cx="418" cy="38" r="18" fill="#fffdf7"/><text x="418" y="44" text-anchor="middle" fill="#173a48" font-size="16" font-weight="900">${i+1}</text></svg>`;
+return `<svg width="${W}" height="${H}" viewBox="0 0 310 72" aria-hidden="true"><defs><linearGradient id="mini${i}" x2="1" y2="1"><stop stop-color="${bg}"/><stop offset="1" stop-color="${c}" stop-opacity=".64"/></linearGradient></defs><rect width="310" height="72" fill="url(#mini${i})"/><g transform="translate(34 -37) scale(.48)">${inner}</g><path d="M202 58h76" stroke="#fffdf7" stroke-opacity=".7" stroke-width="2"/><circle cx="273" cy="22" r="9" fill="#fffdf7"/><text x="273" y="26" text-anchor="middle" fill="#183c4a" font-size="9" font-weight="900">${i+1}</text></svg>`;
+}
+function renderLead(s,i){return `<article class="lead"><div class="lead-art">${art(s,i,true)}</div><div class="lead-copy"><div class="lead-meta"><span><i class="number">${i+1}</i> &nbsp;${esc(s.src)}</span><span class="status ${statusClass(s.status)}">${esc(s.status)}</span></div><h2>${esc(s.t)}</h2><p>${esc(s.d)}</p></div></article>`}
+function renderSmall(s,i){return `<article class="small-card"><div class="small-art">${art(s,i,false)}</div><div class="small-meta"><span><i class="number">${i+1}</i> &nbsp;${esc(s.src)}</span><span class="status ${statusClass(s.status)}">${esc(s.status)}</span></div><h3>${esc(s.t)}</h3><p>${esc(s.d)}</p></article>`}
+document.getElementById("leads").innerHTML=S.slice(0,4).map(renderLead).join("");
+document.getElementById("small-grid").innerHTML=S.slice(4,16).map((s,j)=>renderSmall(s,j+4)).join("");
+const order=["Asia","Europe","Africa","NorthAmerica","SouthAmerica","Oceania","Space"];
+const counts=Object.fromEntries(order.map(r=>[r,S.filter(s=>s.r===r).length]));
+const total=order.reduce((a,r)=>a+counts[r],0);
+document.getElementById("region-strip").innerHTML=`<div class="region-meter">${order.map(r=>`<div class="region-segment" title="${REGIONS[r]} · ${counts[r]} stories" style="flex:${counts[r]};background:${COLORS[r]}"></div>`).join("")}</div><div class="region-labels">${order.map(r=>`<span class="region-key"><i style="--region-color:${COLORS[r]}"></i>${REGIONS[r]} ${counts[r]}</span>`).join("")}</div>`;
+const cols=[S.slice(16,28),S.slice(28,40),S.slice(40,52)];
+document.getElementById("quick-news").innerHTML=cols.map(col=>`<div class="quick-column">${col.map((s,j)=>{const n=S.indexOf(s)+1;return `<article class="quick-item"><i class="quick-number" style="background:${COLORS[s.r]}">${n}</i><div class="quick-copy"><strong>${esc(s.t)}</strong><span>${esc(REGIONS[s.r])} · ${esc(s.src)}</span></div></article>`}).join("")}</div>`).join("");
+const NS="http://www.w3.org/2000/svg",map=document.getElementById("world-map");
+function el(name,attrs={},text=""){const n=document.createElementNS(NS,name);for(const[k,v]of Object.entries(attrs))n.setAttribute(k,v);if(text)n.textContent=text;return n}
+map.appendChild(el("rect",{x:0,y:0,width:520,height:300,fill:"#edf5f0"}));
+for(let x=30;x<520;x+=52)map.appendChild(el("path",{d:`M${x} 0V300`,stroke:"#dce8df","stroke-width":".8"}));
+for(let y=30;y<300;y+=43)map.appendChild(el("path",{d:`M0 ${y}H520`,stroke:"#dce8df","stroke-width":".8"}));
+const land="#b4d2bd",edge="#648e7e";
+const shapes=["M31 52L58 36 85 34 106 42 132 39 151 56 169 59 183 79 175 93 157 99 147 113 135 119 132 137 119 148 110 173 94 170 88 153 73 144 70 127 54 119 49 103 37 92Z","M153 151L174 154 190 168 187 187 178 207 172 228 164 250 155 238 151 218 144 198 146 179Z","M229 57L246 49 261 54 266 66 254 74 240 71Z","M251 81L272 70 298 73 317 67 336 75 350 72 367 84 384 86 400 99 418 105 426 119 407 127 390 118 376 128 365 139 347 137 334 148 316 142 303 151 291 138 278 135 272 121 259 116 250 101Z","M259 133L281 127 300 137 306 156 295 174 290 194 275 214 261 206 255 187 245 171 248 151Z","M390 195L410 187 430 193 439 204 425 214 405 211 393 205Z","M451 223l12-4 8 7-8 7-12-3Z"];
+for(const d of shapes)map.appendChild(el("path",{d,fill:land,stroke:edge,"stroke-width":"1.3","stroke-linejoin":"round"}));
+map.appendChild(el("path",{d:"M400 64c29 1 51 13 70 31",fill:"none",stroke:"#536ba2","stroke-width":"2","stroke-dasharray":"4 5"}));
+map.appendChild(el("text",{x:423,y:58,fill:"#455b83","font-size":"8","font-weight":"800"},"ORBIT · #4"));
+const X=lon=>14+(lon+180)/360*492,Y=lat=>10+(84-lat)/150*275,placed=[];
+S.forEach((s,k)=>{if(s.r==="Space")return;const baseX=X(s.lon),baseY=Y(s.lat),radius=k<16?10.7:5.2;const offsets=[[0,0]];for(let ring=1;ring<=7;ring++){for(let dx=-ring;dx<=ring;dx++){offsets.push([dx*9,-ring*9]);offsets.push([dx*9,ring*9])}for(let dy=-ring+1;dy<ring;dy++){offsets.push([-ring*9,dy*9]);offsets.push([ring*9,dy*9])}}let x=baseX,y=baseY;for(const[dx,dy]of offsets){const tx=baseX+dx,ty=baseY+dy;if(tx<8||tx>512||ty<8||ty>292)continue;if(placed.every(p=>Math.hypot(tx-p.x,ty-p.y)>Math.max(12,radius+p.radius+2))){x=tx;y=ty;break}}placed.push({x,y,radius});
+const g=el("g",{transform:`translate(${x.toFixed(1)} ${y.toFixed(1)})`});
+if(k<16){g.appendChild(el("circle",{r:10.7,fill:COLORS[s.r],stroke:"#fffdf7","stroke-width":"2"}));g.appendChild(el("text",{x:0,y:3.5,fill:"#fff", "font-size":"8.5","font-weight":"900","text-anchor":"middle"},String(k+1)));}
+else{g.appendChild(el("circle",{r:5.2,fill:s.status==="CLAIM"?"#fffdf7":COLORS[s.r],stroke:s.status==="CLAIM"?COLORS[s.r]:"#fffdf7","stroke-width":"1.3"}));g.appendChild(el("text",{x:0,y:1.9,fill:s.status==="CLAIM"?COLORS[s.r]:"#fff","font-size":"4.7","font-weight":"900","text-anchor":"middle"},String(k+1)));}
+map.appendChild(g);
+});
+map.appendChild(el("circle",{cx:496,cy:265,r:16,fill:"none",stroke:"#314b83","stroke-width":"1.5","data-story-pin":"4"}));
+map.appendChild(el("circle",{cx:496,cy:265,r:8,fill:COLORS.Space,stroke:"#fffdf7","stroke-width":"1.5"}));
+map.appendChild(el("text",{x:496,y:268,fill:"#fff","font-size":"8","font-weight":"900","text-anchor":"middle"},"4"));
+map.appendChild(el("path",{d:"M478 265H466m0 0 7-5m-7 5 7 5",fill:"none",stroke:"#314b83","stroke-width":"1.5"}));
+</script>
+</body>
+</html>
