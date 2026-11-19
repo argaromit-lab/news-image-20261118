@@ -1,69 +1,55 @@
 # Reporting record · Wednesday 18 November 2026
 
-Each row points to the report used for the numbered item in `render.html`. The date in the report archive is 18 November; when a source describes allegations, official statements, forecasts or scheduled decisions, the image labels that status instead of presenting it as a settled fact. Earlier events are mentioned only as context, not dated as events of this edition.
+This index follows the 40 story numbers in `render.html` and `entry.png`: three leads, ten illustrated briefs and 27 quick reports. It preserves the reporting references used by the resumed draft. Publication dates, allegations, proposals and scheduled milestones remain distinguished in the artwork; this layout revision does not constitute a new independent fact-check of every linked report.
 
 | # | Desk | Report | Source |
 |---:|---|---|---|
-| 1 | Asia · Gulf | Kuwait says it repelled an Iranian attack; Bahrain says it was also attacked | [BBC, 18 Nov](https://www.bbc.com/news/articles/cw4gn9jeqjq7o) |
-| 2 | Asia · APEC | Xi welcomes Trump to the APEC summit in Shenzhen | [The Guardian, 18 Nov](https://www.theguardian.com/world/2026/nov/18/xi-jinping--protectionism-donald-trump-apec-summit-putin) |
-| 3 | Europe · Ukraine | EU proposes a €45bn loan as Russian attacks hit Odesa, killing four | [The Guardian, EU loan](https://www.theguardian.com/world/2026/nov/18/eu-loan-ukraine-cash-crisis-defences-von-der-leyen-kyiv) · [Reuters, Odesa](https://www.reuters.com/world/europe/russian-attacks-ukrainian-city-odesa-kill-four-officials-say-2026-11-18/) |
-| 4 | Deep space | NASA engineers prepare to confirm Voyager 1's one-light-day milestone | [NASA, 18 Nov](https://science.nasa.gov/blogs/voyager/2026/11/18/voyager-1-engineers-analyze-data-issue-ready-to-confirm-light-day/) |
-| 5 | Asia · Gaza | Israel says its ground operation crossed the Yellow Line; Hamas disputes it | [BBC, 18 Nov](https://www.bbc.com/news/articles/cw8r7510degno) |
-| 6 | Asia · Myanmar | Reuters reports the UN's top court is expected to rule on alleged genocide against the Rohingya | [Reuters, 18 Nov](https://www.reuters.com/world/asia-pacific/top-un-court-rule-alleged-genocide-myanmars-rohingya-2026-11-18/) |
-| 7 | North America · US | Democrats nominate Hakeem Jeffries for House speaker | [The Guardian, 18 Nov](https://www.theguardian.com/us-news/2026/nov/18/hakeem-jeffries-house-speaker-nomination) |
-| 8 | Europe · COP31 | COP31 negotiations, climate finance and calls for a separate fossil-fuel treaty in Antalya | [The Guardian, 18 Nov](https://www.theguardian.com/environment/2026/nov/18/world-held-hostage-by-oil-mafia-says-panama-minister-at-cop-31) |
-| 9 | North America · technology | Anthropic prices its IPO at $83 a share before scheduled trading | [The Guardian, 18 Nov](https://www.theguardian.com/technology/2026/nov/18/anthropic-share-price-stock-market-ipo) |
-| 10 | Europe · UK | UK annual inflation rises to 3.6% | [The Guardian, 18 Nov](https://www.theguardian.com/business/2026/nov/18/uk-inflation-rises-energy-prices-iran-war-oil) |
-| 11 | Asia · India | Chhath festival prayers beside the polluted Yamuna river | [The Guardian, 18 Nov](https://www.theguardian.com/world/gallery/2026/nov/18/chhath-festival-india-nepal-photos) |
-| 12 | North America · Haiti | US jury convicts Christian Sanon in case over the assassination of Haiti's president | [The Guardian, 18 Nov](https://www.theguardian.com/us-news/2026/nov/18/florida-pastor-guilty-haiti-president-assassination) |
-| 13 | Oceania · sport | England beats Australia by 97 runs to win the ODI series | [The Guardian, 18 Nov](https://www.theguardian.com/sport/2026/nov/18/ben-duckett-steers-england-odi-cricket-series-win-sandpapergate-australia) |
-| 14 | Asia · South Korea | High-stakes university entrance exam faces an AI-cheating investigation | [The Guardian, 18 Nov](https://www.theguardian.com/world/2026/nov/18/south-korea-university-entrace-exams-ai-cheating-measures) |
-| 15 | North America · Honduras | Police report at least 12 deaths in organized-crime attacks | [Reuters, 18 Nov](https://www.reuters.com/world/americas/least-12-dead-organized-crime-attacks-honduras-police-spokesman-says-2026-11-18/) |
-| 16 | North America · Canada | Mark Carney says Canada is pursuing options for its auto sector in China | [BBC, 18 Nov](https://www.bbc.com/news/articles/cq98xlz09ye0o) |
-| 17 | Europe · UK–EU | Draft UK–EU reset includes food trade and mobility proposals | [The Guardian, 18 Nov](https://www.theguardian.com/politics/2026/nov/18/uk-eu-relationship-reset-draft-explainer) |
-| 18 | Asia · West Bank | Israel delays settlement construction contracts after UK sanctions | [The Guardian, 18 Nov](https://www.theguardian.com/world/2026/nov/18/israel-construction-contracts-e1-west-bank-settlement-uk-sanctions) |
-| 19 | Europe · Spain | Spanish court investigates allegations by two former employees of Julio Iglesias | [The Guardian, 18 Nov](https://www.theguardian.com/world/2026/nov/18/spanish-court-investigates-julio-iglesias-two-women-allegations) |
-| 20 | Europe · Russia | Sources say drone attacks nearly halve Russia's November oil refining | [Reuters, 18 Nov](https://www.reuters.com/business/energy/drone-attacks-nearly-halve-russias-november-oil-refining-sources-say-2026-11-18/) |
-| 21 | Europe · Ukraine | Kyiv faces power outages amid Russian attacks | [The Guardian, 18 Nov](https://www.theguardian.com/world/2026/nov/18/russian-attacks-kyiv-power-outages-mayor-in-perilous-position) |
-| 22 | South America · Venezuela | US and Venezuela announce a military-cooperation agreement | [Reuters, 18 Nov](https://www.reuters.com/world/americas/us-defense-secretary-hegseth-vows-boost-venezuela-military-cooperation-2026-11-18/) |
-| 23 | South America · Peru | Renata Flores uses rap to promote the Quechua language | [The Guardian, 18 Nov](https://www.theguardian.com/world/2026/nov/18/quechua-rapper-renata-flores-indigenous-language-incas) |
-| 24 | Africa · Ghana | New $60m presidential jet prompts public criticism | [BBC, 18 Nov](https://www.bbc.com/news/articles/ck792dez8dp3o) |
-| 25 | Africa · Nigeria | Nigeria's central bank and national oil company sign an energy funding deal | [Reuters, 18 Nov](https://www.reuters.com/world/africa/nigerias-central-bank-nnpc-sign-deal-support-forex-inflows-energy-funding-2026-11-18/) |
-| 26 | Europe · UK energy | EnQuest plans to leave the North Sea; SSE warns of a potential gas-storage closure | [The Guardian, 18 Nov](https://www.theguardian.com/business/2026/nov/18/sse-threatens-to-close-yorkshire-gas-storage-site-unless-ministers-intervene) |
-| 27 | Oceania · Australia | Australian wages rise at their fastest pace since 2023, while prices rise faster | [The Guardian, 18 Nov](https://www.theguardian.com/australia-news/2026/nov/18/wages-grow-at-fastest-pace-since-2023-but-prices-are-climbing-even-more-quickly) |
-| 28 | Oceania · Australia | Report alleges that “phantom forests” were used to create carbon credits | [The Guardian, 18 Nov](https://www.theguardian.com/environment/2026/nov/18/phantom-forests-in-australian-arid-outback-used-to-create-carbon-credits-meant-to-offset-emissions-report-claims) |
-| 29 | North America · technology | Russian national charged with spying on Silicon Valley firm Palantir | [The Guardian, 18 Nov](https://www.theguardian.com/technology/2026/nov/18/russian-national-spying-silicon-valley) |
-| 30 | North America · technology | Waymo suspends driverless taxi journeys on US freeways | [The Guardian, 18 Nov](https://www.theguardian.com/technology/2026/nov/18/waymo-pulls-driverless-taxis-us-freeways) |
-| 31 | Europe · technology | Researchers identify a critical Java programming-language vulnerability | [BBC, 18 Nov](https://www.bbc.com/news/articles/cke89jevqm1vo) |
-| 32 | North America · markets | Fed minutes show policymakers weighing risks to the financial system | [Reuters, 18 Nov](https://www.reuters.com/legal/transactional/fed-policymakers-concerned-about-financial-system-risks-minutes-show-2026-11-18/) |
-| 33 | Africa · Horn | Ethiopia and Eritrea reportedly build up forces near their shared border | [Reuters, 18 Nov](https://www.reuters.com/world/africa/ethiopia-eritrea-amass-forces-along-border-heightening-war-fears-sources-say-2026-11-18/) |
-| 34 | Asia · India | Reuters examines India's rice exports, farming and water use | [Reuters, 18 Nov](https://www.reuters.com/world/asia-pacific/how-india-became-rice-powerhouse-why-its-becoming-problem-2026-11-18/) |
-| 35 | Oceania · Australia | Anthony Albanese joins the APEC leaders' group photo with Vladimir Putin | [The Guardian, 18 Nov](https://www.theguardian.com/australia-news/2026/nov/18/anthony-albanese-defies-critics-for-apec-summit-photo-with-vladimir-putin) |
-| 36 | Africa · Morocco | Morocco plans to raise domestic production to 40% of its defence needs by 2035 | [Reuters, 18 Nov](https://www.reuters.com/world/africa/morocco-produce-40-its-defence-needs-by-2035-royal-palace-says-2026-11-18/) |
-| 37 | Asia · Japan | A long-running US–Japan potato-import dispute returns to the news | [The Guardian, 18 Nov](https://www.theguardian.com/world/2026/nov/18/potato-war-japan-76-year-ban-american-imported-potatoes) |
-| 38 | Oceania · music | Tame Impala wins seven ARIA awards, including album and song of the year | [The Guardian, 18 Nov](https://www.theguardian.com/music/2026/nov/18/aria-awards-winners-2026-tame-impala-dominates) |
-| 39 | Europe · UK–EU | UK business leaders call for improvements to post-Brexit work-travel rules | [The Guardian, 18 Nov](https://www.theguardian.com/world/2026/nov/18/brexit-work-travel-rules-urgent-improvement-cbi) |
-| 40 | Europe · UK environment | Watchdog says wild-bird populations are at record lows | [The Guardian, 18 Nov](https://www.theguardian.com/environment/2026/nov/18/uk-government-angela-eagle-natural-england-wild-birds-decline-) |
-| 41 | North America · Mexico | Residents of El Bosque leave as erosion and rising seas damage homes | [The Guardian, 18 Nov](https://www.theguardian.com/environment/ng-interactive/2026/nov/18/el-bosque-mexico-displaced-sea-level-this-is-climate-breakdown) |
-| 42 | Asia · Bangladesh | Bangladesh deploys paramilitary forces amid unrest over Sheikh Hasina's return | [Reuters, 18 Nov](https://www.reuters.com/world/asia-pacific/bangladesh-deploys-paramilitary-unrest-grows-over-hasinas-return-2026-11-18/) |
-| 43 | Europe · Germany–Ukraine | Germany criticises US pressure on Kyiv over deep strikes in Russia | [The Guardian, 18 Nov](https://www.theguardian.com/world/2026/nov/18/ukraine-war-briefing-us-criticises-kyiv-deep-strikes-russia) |
-| 44 | Africa · South Africa | South African inflation rises in October; economists expect a rate hold | [Reuters, 18 Nov](https://www.reuters.com/world/africa/south-africa-inflation-accelerates-52-yy-october-expected-2026-11-18/) |
-| 45 | North America · US sport | MLB owners maintain their salary-cap demand, raising the prospect of a lockout | [The Guardian, 18 Nov](https://www.theguardian.com/sport/2026/nov/18/mlb-commissioner-manfred-cites-fan-support-for-salary-cap-as-baseball-heads-towards-lockout) |
-| 46 | Europe · sport | Rugby brain-injury lawsuits face another deadline dispute | [The Guardian, 18 Nov](https://www.theguardian.com/sport/2026/nov/18/rugby-brain-injury-lawsuits-on-brink-of-collapse-over-medical-documents-delay) |
-| 47 | Oceania · Australia sport | Australian rules footballer Tom Papley is suspended after a second positive test | [The Guardian, 18 Nov](https://www.theguardian.com/sport/2026/nov/18/afl-suspends-swans-star-tom-papley-second-drug-test-cocaine-mdma-ntwnfb) |
-| 48 | Oceania · games | GTA VI's New Zealand launch is 00:00 Thursday local time, 11:00 UTC Wednesday 18 November | [The Guardian, 18 Nov](https://www.theguardian.com/australia-news/2026/nov/18/gta-6-biggest-gaming-event-australians-prepare-for-global-release) |
-| 49 | Africa · sport | Senegal and Morocco lead qualification for the 2027 Africa Cup of Nations | [BBC Sport, 18 Nov](https://www.bbc.com/sport/football/articles/c5evrgrvw1ezo) |
-| 50 | Europe · Italy | Italy's parliament approves an antisemitism bill amid opposition protests | [Reuters, 18 Nov](https://www.reuters.com/world/italy-approves-antisemitism-law-amid-leftist-opposition-protests-2026-11-18/) |
-| 51 | Asia · Bangladesh | Sundarbans tiger ranger Abdul Goni Gazi works to support coexistence | [The Guardian, 18 Nov](https://www.theguardian.com/environment/2026/nov/18/abdul-goni-gazi-tigers-bangladesh-sundarbans-aoe) |
-| 52 | Europe · sport | Carlos Alcaraz beats Daniil Medvedev at the ATP Finals | [The Guardian, 18 Nov](https://www.theguardian.com/sport/live/2026/nov/18/carlos-alcaraz-v-daniil-medvedev-atp-finals-tennis-group-stage-live) |
+| 1 | Asia | Xi greets Trump in Shenzhen ahead of APEC talks | [The Guardian, 18 Nov](https://www.theguardian.com/world/2026/nov/18/xi-jinping--protectionism-donald-trump-apec-summit-putin) |
+| 2 | Middle East | Kuwait and Bahrain report interceptions of Iranian drones | [BBC, 18 Nov](https://www.bbc.com/news/articles/cw4gn9jeqjq7o) |
+| 3 | Deep space | Voyager 1 approaches one light-day; confirmation is pending | [NASA, 18 Nov](https://science.nasa.gov/blogs/voyager/2026/11/18/voyager-1-engineers-analyze-data-issue-ready-to-confirm-light-day/) |
+| 4 | Europe | Ukraine's air force reports 141 drones launched and 126 downed | [Air-force report search, 18 Nov](https://news.google.com/rss/search?q=Ukraine+%22141%22+%22126%22+18+November+2026&hl=en-US&gl=US&ceid=US:en) |
+| 5 | Europe | EU proposes a €45bn Ukraine funding loan for 2027 | [The Guardian, 18 Nov](https://www.theguardian.com/world/2026/nov/18/eu-loan-ukraine-cash-crisis-defences-von-der-leyen-kyiv) |
+| 6 | Americas | Fed minutes and US market coverage | [Reuters, 18 Nov](https://www.reuters.com/legal/transactional/fed-policymakers-concerned-about-financial-system-risks-minutes-show-2026-11-18/) |
+| 7 | Asia | Chhath festival prayers beside Delhi's Yamuna river | [The Guardian, 18 Nov](https://www.theguardian.com/world/gallery/2026/nov/18/chhath-festival-india-nepal-photos) |
+| 8 | Middle East | Israeli ground operation near Nuseirat in central Gaza | [BBC, 18 Nov](https://www.bbc.com/news/articles/cw8r7510degno) |
+| 9 | Europe | UK annual consumer-price inflation rises to 3.6% | [The Guardian, 18 Nov](https://www.theguardian.com/business/2026/nov/18/uk-inflation-rises-energy-prices-iran-war-oil) |
+| 10 | Americas | Democrats nominate Hakeem Jeffries for House speaker | [The Guardian, 18 Nov](https://www.theguardian.com/us-news/2026/nov/18/hakeem-jeffries-house-speaker-nomination) |
+| 11 | Oceania | GTA VI's New Zealand midnight launch and its UTC date | [The Guardian, 18 Nov](https://www.theguardian.com/australia-news/2026/nov/18/gta-6-biggest-gaming-event-australians-prepare-for-global-release) |
+| 12 | Asia | Bangladesh garment-factory closures: 55 initially, 65 in an update | [The Business Standard report search, 18 Nov](https://news.google.com/rss/search?q=Bangladesh+%2265+garment+factories%22+18+November+2026&hl=en-US&gl=US&ceid=US:en) |
+| 13 | Americas | Anthropic IPO share pricing before its planned debut | [The Guardian, 18 Nov](https://www.theguardian.com/technology/2026/nov/18/anthropic-share-price-stock-market-ipo) |
+| 14 | Europe | Draft UK–EU reset proposals | [The Guardian, 18 Nov](https://www.theguardian.com/politics/2026/nov/18/uk-eu-relationship-reset-draft-explainer) |
+| 15 | Middle East | West Bank construction contracts delayed after UK sanctions | [The Guardian, 18 Nov](https://www.theguardian.com/world/2026/nov/18/israel-construction-contracts-e1-west-bank-settlement-uk-sanctions) |
+| 16 | Europe | Spanish court investigates allegations against Julio Iglesias | [The Guardian, 18 Nov](https://www.theguardian.com/world/2026/nov/18/spanish-court-investigates-julio-iglesias-two-women-allegations) |
+| 17 | Europe | Reuters sources report a fall in Russian oil refining | [Reuters, 18 Nov](https://www.reuters.com/business/energy/drone-attacks-nearly-halve-russias-november-oil-refining-sources-say-2026-11-18/) |
+| 18 | Europe | Russian strikes and Kyiv power outages | [The Guardian, 18 Nov](https://www.theguardian.com/world/2026/nov/18/russian-attacks-kyiv-power-outages-mayor-in-perilous-position) |
+| 19 | Americas | US–Venezuela military-cooperation agreement | [Reuters, 18 Nov](https://www.reuters.com/world/americas/us-defense-secretary-hegseth-vows-boost-venezuela-military-cooperation-2026-11-18/) |
+| 20 | Americas | Renata Flores brings Quechua to new audiences through rap | [The Guardian, 18 Nov](https://www.theguardian.com/world/2026/nov/18/quechua-rapper-renata-flores-indigenous-language-incas) |
+| 21 | Africa | Public criticism of Ghana's presidential jet purchase | [BBC, 18 Nov](https://www.bbc.com/news/articles/ck792dez8dp3o) |
+| 22 | Africa | Nigeria's central bank and NNPC sign an energy funding deal | [Reuters, 18 Nov](https://www.reuters.com/world/africa/nigerias-central-bank-nnpc-sign-deal-support-forex-inflows-energy-funding-2026-11-18/) |
+| 23 | Europe | North Sea investment and UK gas-storage closure warnings | [The Guardian, 18 Nov](https://www.theguardian.com/business/2026/nov/18/sse-threatens-to-close-yorkshire-gas-storage-site-unless-ministers-intervene) |
+| 24 | Oceania | Australian wages grow while prices rise faster | [The Guardian, 18 Nov](https://www.theguardian.com/australia-news/2026/nov/18/wages-grow-at-fastest-pace-since-2023-but-prices-are-climbing-even-more-quickly) |
+| 25 | Oceania | Report alleges problems with Australian forest carbon credits | [The Guardian, 18 Nov](https://www.theguardian.com/environment/2026/nov/18/phantom-forests-in-australian-arid-outback-used-to-create-carbon-credits-meant-to-offset-emissions-report-claims) |
+| 26 | Americas | Russian national charged in Silicon Valley spying case | [The Guardian, 18 Nov](https://www.theguardian.com/technology/2026/nov/18/russian-national-spying-silicon-valley) |
+| 27 | Americas | Waymo suspends driverless taxi journeys on US freeways | [The Guardian, 18 Nov](https://www.theguardian.com/technology/2026/nov/18/waymo-pulls-driverless-taxis-us-freeways) |
+| 28 | Europe | Researchers identify a critical Java vulnerability | [BBC, 18 Nov](https://www.bbc.com/news/articles/cke89jevqm1vo) |
+| 29 | Africa | Sources report Ethiopia–Eritrea border troop build-ups | [Reuters, 18 Nov](https://www.reuters.com/world/africa/ethiopia-eritrea-amass-forces-along-border-heightening-war-fears-sources-say-2026-11-18/) |
+| 30 | Asia | India's rice exports, farming and water use | [Reuters, 18 Nov](https://www.reuters.com/world/asia-pacific/how-india-became-rice-powerhouse-why-its-becoming-problem-2026-11-18/) |
+| 31 | Oceania | Albanese joins an APEC leaders' photo with Putin | [The Guardian, 18 Nov](https://www.theguardian.com/australia-news/2026/nov/18/anthony-albanese-defies-critics-for-apec-summit-photo-with-vladimir-putin) |
+| 32 | Africa | Morocco's domestic defence-production plan for 2035 | [Reuters, 18 Nov](https://www.reuters.com/world/africa/morocco-produce-40-its-defence-needs-by-2035-royal-palace-says-2026-11-18/) |
+| 33 | Asia | Long-running US–Japan potato-import dispute | [The Guardian, 18 Nov](https://www.theguardian.com/world/2026/nov/18/potato-war-japan-76-year-ban-american-imported-potatoes) |
+| 34 | Oceania | Tame Impala at Australia's ARIA Awards | [The Guardian, 18 Nov](https://www.theguardian.com/music/2026/nov/18/aria-awards-winners-2026-tame-impala-dominates) |
+| 35 | Europe | UK businesses seek better post-Brexit work-travel arrangements | [The Guardian, 18 Nov](https://www.theguardian.com/world/2026/nov/18/brexit-work-travel-rules-urgent-improvement-cbi) |
+| 36 | Europe | Watchdog reports declining UK bird populations | [The Guardian, 18 Nov](https://www.theguardian.com/environment/2026/nov/18/uk-government-angela-eagle-natural-england-wild-birds-decline-) |
+| 37 | Americas | Coastal erosion displaces residents of El Bosque, Mexico | [The Guardian, 18 Nov](https://www.theguardian.com/environment/ng-interactive/2026/nov/18/el-bosque-mexico-displaced-sea-level-this-is-climate-breakdown) |
+| 38 | Asia | Bangladesh deploys paramilitary forces amid unrest | [Reuters, 18 Nov](https://www.reuters.com/world/asia-pacific/bangladesh-deploys-paramilitary-unrest-grows-over-hasinas-return-2026-11-18/) |
+| 39 | Europe | Germany comments on US criticism of Ukraine's deep strikes | [The Guardian, 18 Nov](https://www.theguardian.com/world/2026/nov/18/ukraine-war-briefing-us-criticises-kyiv-deep-strikes-russia) |
+| 40 | Africa | South African consumer-price inflation rises in October | [Reuters, 18 Nov](https://www.reuters.com/world/africa/south-africa-inflation-accelerates-52-yy-october-expected-2026-11-18/) |
 
-## Date exclusions
+## Date and attribution notes
 
-The front page does not report 17 November's Nvidia earnings, Alaska Senate result, Prague train crash or Mongolia resignation as 18 November events. The Qeshm strike is mentioned only as context for reported Gulf attacks on 18 November. The New Zealand GTA VI launch at midnight on 19 November local time falls at 11:00 UTC on 18 November; that UTC-day event is included. Later UTC events are not presented as completed Wednesday news.
-
-## Four KPI cards
-
-- **$3,792 gold session low:** a brief-specified market snapshot, not an independently sourced story item.
-- **25.9bn km / one light-day:** [NASA Voyager update, 18 Nov](https://science.nasa.gov/blogs/voyager/2026/11/18/voyager-1-engineers-analyze-data-issue-ready-to-confirm-light-day/); the milestone remains pending confirmation.
-- **€45bn proposed Ukraine loan:** [The Guardian, 18 Nov](https://www.theguardian.com/world/2026/nov/18/eu-loan-ukraine-cash-crisis-defences-von-der-leyen-kyiv).
-- **3.6% UK CPI:** [The Guardian, 18 Nov](https://www.theguardian.com/business/2026/nov/18/uk-inflation-rises-energy-prices-iran-war-oil).
+- The DATE CHECK panel excludes 17 November's Nvidia earnings, Alaska Senate result, Prague train crash and Mongolia resignation as events of this edition.
+- Voyager 1's 19 November milestone remains labelled pending in the 18 November edition.
+- New Zealand's 00:00 launch on 19 November is 11:00 UTC on 18 November.
+- The Bangladesh closure count distinguishes the initial 55 from the later report of 65.
+- Items 4 and 12 retain discovery links from the draft rather than direct publisher article URLs. The reference for item 6 concerns Fed minutes; its linked article alone has not been checked here as support for every market figure in that card.
+- All illustrations are original vectors authored in `render.html`; the public news links are reporting references, not image assets.
